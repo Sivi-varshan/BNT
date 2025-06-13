@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #120707;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    animation: colorTransition 6s ;
+}
+
+@keyframes colorTransition {
+    0% {
+        background-color: rgb(208, 212, 101);
+    }
+  100% {
+        background-color: red;
+    }
+}

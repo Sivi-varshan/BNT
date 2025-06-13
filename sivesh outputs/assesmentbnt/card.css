@@ -1,0 +1,25 @@
+body {
+
+    margin: 0;
+    padding: 50px;
+    height: 100vh;
+    background-color: #130707;
+}
+
+.card {
+    width: 50px;
+    height: 70px;
+    background-color: #ff0000;
+    position: relative;
+    animation: moveRight 5s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 70%;
+    }
+}
+
